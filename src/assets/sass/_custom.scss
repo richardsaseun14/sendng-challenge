@@ -1,0 +1,30 @@
+@font-face {
+  font-family: FontRegular;
+  src: url(../fonts/HKGrotesk-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: FontRegular;
+  src: url(../fonts/HKGrotesk-Regular.woff);
+}
+
+body {
+  font-family: FontRegular;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.lp-1 {
+  letter-spacing: 1px;
+}
+
+.filter {
+  filter: invert(50%);
+}
+
+.btn-product {
+  height: 65px;
+}
