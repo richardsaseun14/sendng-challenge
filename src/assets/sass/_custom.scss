@@ -25,6 +25,48 @@ body {
   filter: invert(50%);
 }
 
-.btn-product {
-  height: 65px;
+.btn-custom {
+  border: 2px solid rgb(234, 242, 253);
+  background-color: transparent !important;
+  p {
+    color: rgb(48, 66, 86);
+  }
+  &:hover {
+    border: 2px solid rgb(234, 242, 253);
+  }
+  &.active {
+    border: 2px solid rgb(47, 128, 237) !important;
+    background-color: #f5f8fd !important;
+    p {
+      color: rgb(47, 128, 237);
+    }
+  }
+}
+
+.my-card {
+  box-shadow: rgb(234, 242, 253) 4px 4px 12px 0px;
+  border: 2px solid rgb(234, 242, 253);
+  .card-header {
+    border-bottom: 2px solid rgb(234, 242, 253);
+  }
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.label:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
 }

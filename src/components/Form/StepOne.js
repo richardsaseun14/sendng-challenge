@@ -9,27 +9,21 @@ class Step1 extends React.Component {
     }
     // The markup for the Step 1 UI
     return (
-      <Container fluid className="bg-primary-light height-100">
-        <Container className="pt-8">
+      <Container fluid className="bg-primary-light">
+        <Container className="py-8">
           <div className="text-center">
             <h4 className="mb-4 font-weight-bold">Welcome!</h4>
             <h4 className="mb-3">Here are the next steps:</h4>
           </div>
           <Row className="justify-content-center mb-5">
-            <Col
-              md={4}
-              className="shadow-sm border-paragraph-light border py-5 px-5 text-center bg-white m-3"
-            >
+            <Col md={4} className="my-card py-5 px-5 text-center bg-white m-3">
               <h5 className="my-3 font-weight-bold">Sign up</h5>
               <p>
                 Create an account and complete your request in less than 3
                 minutes.
               </p>
             </Col>
-            <Col
-              md={4}
-              className="shadow-sm border-paragraph-light border py-5 px-5 text-center bg-white m-3"
-            >
+            <Col md={4} className="my-card py-5 px-5 text-center bg-white m-3">
               <h5 className="my-3 font-weight-bold">Match with suppliers</h5>
               <p>
                 After completing your request, we’ll notify relevant suppliers
