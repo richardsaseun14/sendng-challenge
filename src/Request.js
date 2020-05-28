@@ -145,10 +145,9 @@ class Request extends React.Component {
 
   goBack() {
     let currentStep = this.state.currentStep
-    currentStep += 1
+    currentStep -= 1
     this.setState({ currentStep: currentStep })
   }
-
   // Trigger an alert on form submission
   handleSubmit = (event) => {
     event.preventDefault()

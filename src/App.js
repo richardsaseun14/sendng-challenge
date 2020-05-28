@@ -5,6 +5,7 @@ import Works from "./components/Works"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+import hero from "./assets/img/hero-img.png"
 import Uber from "./assets/img/uber.png"
 import c19 from "./assets/img/c19.png"
 import respirators from "./assets/img/respirators.svg"
@@ -54,13 +55,10 @@ function App() {
             <h6 className="text-primary mb-4 font-weight-bold lp-1">
               LIFESAVING PROCUREMENT
             </h6>
-            <h1 className="mb-5 font-weight-bold">
-              Group Purchasing for <br></br> COVID-19
-            </h1>
-            <h3 className="mb-4 font-weight-light text-paragraph">
-              Response automates aggregation of similar equipment requests
-              across organizations, so they can meet MOQs and increase buying
-              power.
+            <h1 className="mb-5 font-weight-bold">Sourcing for COVID-19</h1>
+            <h3 className="mb-4 font-weight-lighter text-paragraph">
+              Response connects healthcare providers to medical suppliers with a
+              sourcing platform built to accelerate emergency procurement.
             </h3>
             <Button
               href="/request"
@@ -73,14 +71,19 @@ function App() {
               Questions? <span>Talk to us.</span>
             </p>
           </Col>
-          <Col md={6}>Hello</Col>
+          <Col md={6}>
+            <img className="img-fluid" src={hero}></img>
+          </Col>
         </Row>
       </Container>
 
       <Container fluid className="text-white bg-primary py-3">
         <Row className="align-items-center justify-content-center">
           <h4 className="mb-0 mr-4 font-weight-light">Have Supplies?</h4>
-          <Button variant="outline-light px-4 py-3 font-weight-bold">
+          <Button
+            href="/request"
+            variant="outline-light px-4 py-3 font-weight-bold"
+          >
             Supply Medical Equipment
           </Button>
         </Row>

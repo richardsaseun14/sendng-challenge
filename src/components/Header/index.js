@@ -35,13 +35,13 @@ const Header = () => {
             </Nav.Link>
           </Nav>
           <Form inline>
-            <Button className="ml-2" variant="link">
+            <Button className="ml-2 font-weight-bold" variant="link">
               Login
             </Button>
-            <Button className="ml-2" variant="primary">
+            <Button className="ml-2 font-weight-bold" variant="red">
               Request
             </Button>
-            <Button className="ml-2" variant="red">
+            <Button className="ml-2 font-weight-bold" variant="primary">
               Supply
             </Button>
           </Form>

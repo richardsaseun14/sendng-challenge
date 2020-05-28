@@ -287,18 +287,18 @@ const StepThree = (props) => {
               </Card>
 
               <Button
-                variant="secondary"
-                onClick={props.goBack}
-                className="font-weight-bold py-3 px-4 mt-4 mb-5 float-right"
-              >
-                Back
-              </Button>
-              <Button
-                variant="primary"
+                variant="success"
                 onClick={props.handleSubmit}
                 className="font-weight-bold py-3 px-4 mt-4 mb-5 float-right"
               >
                 Submit
+              </Button>
+              <Button
+                variant="secondary"
+                onClick={props.goBack}
+                className="font-weight-bold py-3 px-4 mx-4 mt-4 mb-5 float-right"
+              >
+                Back
               </Button>
             </Col>
           </Row>
